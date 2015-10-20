@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C41EADA93FC0C9F63500ED1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5279D01964A75B957C64FDBA /* libPods.a */; };
 		D4E411981BD60EBB001B09C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E411971BD60EBB001B09C4 /* AppDelegate.swift */; };
 		D4E4119A1BD60EBB001B09C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E411991BD60EBB001B09C4 /* ViewController.swift */; };
 		D4E4119D1BD60EBB001B09C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E4119B1BD60EBB001B09C4 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		D4E411A51BD60EBB001B09C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E411A31BD60EBB001B09C4 /* LaunchScreen.storyboard */; };
 		D4E411B01BD60EBB001B09C4 /* CSE190Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E411AF1BD60EBB001B09C4 /* CSE190Tests.swift */; };
 		D4E411BB1BD60EBB001B09C4 /* CSE190UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E411BA1BD60EBB001B09C4 /* CSE190UITests.swift */; };
+		D4E411C91BD60FBC001B09C4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D4E411C81BD60FBC001B09C4 /* Podfile */; };
+		D4E411CC1BD611FF001B09C4 /* anything.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E411CB1BD611FF001B09C4 /* anything.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23267BD8DA53237DD3CEDECC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		42522049B5688723AF8D0568 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5279D01964A75B957C64FDBA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E411941BD60EBB001B09C4 /* CSE190.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSE190.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E411971BD60EBB001B09C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E411991BD60EBB001B09C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,9 @@
 		D4E411B61BD60EBB001B09C4 /* CSE190UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSE190UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E411BA1BD60EBB001B09C4 /* CSE190UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSE190UITests.swift; sourceTree = "<group>"; };
 		D4E411BC1BD60EBB001B09C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E411C81BD60FBC001B09C4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		D4E411CA1BD611FE001B09C4 /* CSE190-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSE190-Bridging-Header.h"; sourceTree = "<group>"; };
+		D4E411CB1BD611FF001B09C4 /* anything.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = anything.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C41EADA93FC0C9F63500ED1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91C90193AA5F254751CEA568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42522049B5688723AF8D0568 /* Pods.debug.xcconfig */,
+				23267BD8DA53237DD3CEDECC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4E436F25ABAD228F7B34A40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5279D01964A75B957C64FDBA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4E4118B1BD60EBB001B09C4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				D4E411AE1BD60EBB001B09C4 /* CSE190Tests */,
 				D4E411B91BD60EBB001B09C4 /* CSE190UITests */,
 				D4E411951BD60EBB001B09C4 /* Products */,
+				91C90193AA5F254751CEA568 /* Pods */,
+				B4E436F25ABAD228F7B34A40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +129,15 @@
 			isa = PBXGroup;
 			children = (
 				D4E411971BD60EBB001B09C4 /* AppDelegate.swift */,
+				D4E411C81BD60FBC001B09C4 /* Podfile */,
 				D4E411991BD60EBB001B09C4 /* ViewController.swift */,
 				D4E4119B1BD60EBB001B09C4 /* Main.storyboard */,
+				D4E411CB1BD611FF001B09C4 /* anything.m */,
 				D4E411A11BD60EBB001B09C4 /* Assets.xcassets */,
 				D4E411A31BD60EBB001B09C4 /* LaunchScreen.storyboard */,
 				D4E411A61BD60EBB001B09C4 /* Info.plist */,
 				D4E4119E1BD60EBB001B09C4 /* CSE190.xcdatamodeld */,
+				D4E411CA1BD611FE001B09C4 /* CSE190-Bridging-Header.h */,
 			);
 			path = CSE190;
 			sourceTree = "<group>";
@@ -135,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4E411BF1BD60EBB001B09C4 /* Build configuration list for PBXNativeTarget "CSE190" */;
 			buildPhases = (
+				B3CB6A955F69D1308F29BD46 /* Check Pods Manifest.lock */,
 				D4E411901BD60EBB001B09C4 /* Sources */,
 				D4E411911BD60EBB001B09C4 /* Frameworks */,
 				D4E411921BD60EBB001B09C4 /* Resources */,
+				1AD4F756D8834D6EB5A71FD3 /* Embed Pods Frameworks */,
+				58D21701EAEDD570C890C48D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +225,7 @@
 		D4E4118C1BD60EBB001B09C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Sirio Labs";
 				TargetAttributes = {
@@ -233,6 +269,7 @@
 			files = (
 				D4E411A51BD60EBB001B09C4 /* LaunchScreen.storyboard in Resources */,
 				D4E411A21BD60EBB001B09C4 /* Assets.xcassets in Resources */,
+				D4E411C91BD60FBC001B09C4 /* Podfile in Resources */,
 				D4E4119D1BD60EBB001B09C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +290,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AD4F756D8834D6EB5A71FD3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D21701EAEDD570C890C48D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CB6A955F69D1308F29BD46 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4E411901BD60EBB001B09C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +346,7 @@
 				D4E4119A1BD60EBB001B09C4 /* ViewController.swift in Sources */,
 				D4E411981BD60EBB001B09C4 /* AppDelegate.swift in Sources */,
 				D4E411A01BD60EBB001B09C4 /* CSE190.xcdatamodeld in Sources */,
+				D4E411CC1BD611FF001B09C4 /* anything.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,23 +486,30 @@
 		};
 		D4E411C01BD60EBB001B09C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42522049B5688723AF8D0568 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CSE190/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SirioLabs.CSE190;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSE190/CSE190-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D4E411C11BD60EBB001B09C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23267BD8DA53237DD3CEDECC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CSE190/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SirioLabs.CSE190;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSE190/CSE190-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +580,7 @@
 				D4E411C11BD60EBB001B09C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E411C21BD60EBB001B09C4 /* Build configuration list for PBXNativeTarget "CSE190Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +589,7 @@
 				D4E411C41BD60EBB001B09C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E411C51BD60EBB001B09C4 /* Build configuration list for PBXNativeTarget "CSE190UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +598,7 @@
 				D4E411C71BD60EBB001B09C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
